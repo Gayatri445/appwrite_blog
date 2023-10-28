@@ -14,7 +14,6 @@ const Home = () => {
     });
   }, []);
 
-  // if (posts?.length === 0) {
   if (!authStatus) {
     return (
       <div className="w-full py-8 mt-4 text-center">
